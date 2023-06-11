@@ -25,4 +25,4 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://benitoapp20230611.azurewebsites.net:$PORT/predict
+     -X POST https://benprj2.azurewebsites.net:$PORT/predict

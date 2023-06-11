@@ -1,2 +1,2 @@
-az webapp up --name benitoapp20230611 --resource-group UdacityProject2 --sku F1 --logs
-echo https://benitoapp20230611.azurewebsites.net
+az webapp up --name benprj2 --resource-group UdacityProject2 --sku F1
+echo https://benprj2.azurewebsites.net
