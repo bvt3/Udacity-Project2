@@ -11,7 +11,7 @@ pool: myAgentPool
 variables:
   azureServiceConnectionId: 'myServiceConn'
   webAppName: 'benprj2'
-  environmentName: 'housing_prediction_app'
+  environmentName: 'benprj2'
   projectRoot: $(System.DefaultWorkingDirectory)
 
 stages:
