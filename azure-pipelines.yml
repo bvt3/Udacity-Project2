@@ -63,3 +63,4 @@ stages:
               appName: $(webAppName)
               package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
               appType: webAppLinux
+              deploymentMethod: zipDeploy
