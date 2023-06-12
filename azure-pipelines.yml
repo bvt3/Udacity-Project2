@@ -25,7 +25,7 @@ stages:
         export PATH=$HOME/.local/bin:$PATH
         python3.9 -m pip install -r requirements.txt
       workingDirectory: $(projectRoot)
-      displayName: 'Install requirements.txt'
+      displayName: 'Install requirements.txt file'
 
     - script: |
         export PATH=$HOME/.local/bin:$PATH
