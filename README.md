@@ -1,3 +1,7 @@
+[![Python application test with Github Actions](https://github.com/bvt3/Udacity-Project2/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/bvt3/Udacity-Project2/actions/workflows/pythonapp.yml)
+
+[![Build Status](https://dev.azure.com/udacitytest/Flask-ML-Deploy/_apis/build/status%2Fbvt3.Udacity-Project2?branchName=main)](https://dev.azure.com/udacitytest/Flask-ML-Deploy/_build/latest?definitionId=5&branchName=main)
+
 # Overview
 
 <TODO: complete this with an overview of your project>
@@ -52,4 +56,3 @@ Port: 443
 
 Note: To not crowd this page, please navigate to [Screenshots](https://github.com/bvt3/flask-sklearn-benito-tio/tree/main/Screenshots) folder to view all the screen shots.
 
-[![Python application test with Github Actions](https://github.com/bvt3/Udacity-Project2/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/bvt3/Udacity-Project2/actions/workflows/pythonapp.yml)
