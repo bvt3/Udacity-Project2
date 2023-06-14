@@ -5,7 +5,7 @@
 
 <TODO: complete this with an overview of your project>
 The project is all about deploying and running a machine learning app that predicts the housing price in Boston.
-It is kept under a public GitHub repository that can be clone and inspect from the portal itself or by cloning it from a local development environment.
+It is kept under a public GitHub repository that can be cloned and inspected from the portal itself or by cloning it from a local development machine.
 The app is running on Python version 3.9.
 
 ## Project Plan
