@@ -4,6 +4,9 @@
 # Overview
 
 <TODO: complete this with an overview of your project>
+The project is all about deploying and running a machine learning app that predicts the housing price in Boston.
+It is kept under a public GitHub repository that can be clone and inspect from the portal itself or by cloning it from a local development environment.
+The app is running on Python version 3.9.
 
 ## Project Plan
 <TODO: Project Plan
@@ -11,10 +14,22 @@
 * A link to a Trello board for the project
 * A link to a spreadsheet that includes the original and final project plan>
 
+* [Trello board](https://trello.com/b/vmQ218hf/udacity-project2) for the project
+* [Project plan spreadsheet](https://github.com/bvt3/Udacity-Project2/blob/main/Files/project-management-template.xlsx)
+
 ## Instructions
 
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
+
+Architectural Diagram
+
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/Architectural_Diagram.jpg?raw=true)
+
+1. User initiate the change either from GitHub portal or via local repository.
+2. Once the change has been pushed, GitHub workflow will run and at the same time Azure Build Pipeline will run.
+3. Azure Pipeline will run necessary step to deploy it to Azure App Service.
+4. The app is up and running and we can use the service it provides.
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
