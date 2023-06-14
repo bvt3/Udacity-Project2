@@ -15,7 +15,7 @@ The app is running on Python version 3.9.
 * A link to a spreadsheet that includes the original and final project plan>
 
 * [Trello board](https://trello.com/b/vmQ218hf/udacity-project2) for the project
-* [Project plan spreadsheet](https://github.com/bvt3/Udacity-Project2/blob/main/Files/project-management-template.xlsx)
+* [Project plan spreadsheet](https://docs.google.com/spreadsheets/d/1apMKKebAqOvSA9z8hcqIV6f1Bb2gQdo4qqU8FKp7uVo/edit?usp=sharing)
 
 ## Instructions
 
