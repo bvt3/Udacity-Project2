@@ -10,8 +10,8 @@ pool: myAgentPool
 
 variables:
   azureServiceConnectionId: 'myServiceConn'
-  webAppName: 'benprj2app'
-  environmentName: 'benprj2app'
+  webAppName: 'benprj2'
+  environmentName: 'benprj2'
   projectRoot: $(System.DefaultWorkingDirectory)
 
 stages:
@@ -49,7 +49,7 @@ stages:
       artifact: drop
 
 - stage: Deploy
-  displayName: 'Deploy Prj2 Web App'
+  displayName: 'Deploy Web App'
   dependsOn: Build
   condition: succeeded()
   jobs:
