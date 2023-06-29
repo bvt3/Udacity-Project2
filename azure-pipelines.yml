@@ -10,8 +10,8 @@ pool: myAgentPool
 
 variables:
   azureServiceConnectionId: 'myServiceConn'
-  webAppName: 'benprj2'
-  environmentName: 'benprj2'
+  webAppName: 'benprj2app'
+  environmentName: 'benprj2app'
   projectRoot: $(System.DefaultWorkingDirectory)
 
 stages:

@@ -3,24 +3,16 @@
 
 # Overview
 
-<TODO: complete this with an overview of your project>
 The project is all about deploying and running a machine learning app that predicts the housing price in Boston.
 It is kept under a public GitHub repository that can be cloned and inspected from the portal itself or by cloning it from a local development machine.
 The app is running on Python version 3.9.
 
 ## Project Plan
-<TODO: Project Plan
-
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
 
 * [Trello board](https://trello.com/b/vmQ218hf/udacity-project2) for the project
 * [Project plan spreadsheet](https://docs.google.com/spreadsheets/d/1apMKKebAqOvSA9z8hcqIV6f1Bb2gQdo4qqU8FKp7uVo/edit?usp=sharing)
 
 ## Instructions
-
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
 
 Architectural Diagram
 
@@ -30,6 +22,18 @@ Architectural Diagram
 2. Once the change has been pushed, GitHub workflow will run and at the same time Azure Build Pipeline will run.
 3. Azure Pipeline will run necessary step to deploy it to Azure App Service.
 4. The app is up and running and we can use the service it provides.
+
+
+Steps to run the Python project (CI/CD)
+
+1. Open portal.azure.com from your web browser
+2. From the Resource Group, create a new resource group named "UdacityProject2"
+3. Open the Cloud Shell
+4. Clone the repository using https
+    git clone https://github.com/bvt3/Udacity-Project2.git
+5. Create a virtual environment
+    
+
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
