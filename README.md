@@ -26,12 +26,26 @@ Architectural Diagram
 
 Steps to run the Python project (CI/CD)
 
-1. Open portal.azure.com from your web browser
-2. From the Resource Group, create a new resource group named "UdacityProject2"
-3. Open the Cloud Shell
-4. Clone the repository using https
-    git clone https://github.com/bvt3/Udacity-Project2.git
-5. Create a virtual environment
+1. Open portal.azure.com from your web browser and login
+2. Click Cloud Shell icon from the menu (BASH)
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-01.jpg?raw=true)
+3. Create a virtual environment using the command:
+```bash
+python3 -m venv ~/.myrepo
+```
+4. Activate the virtual environment:
+```bash
+source ~/.myrepo/bin/activate
+```
+5. Clone the repository using https, example:
+```bash
+git clone https://github.com/bvt3/Udacity-Project2.git
+```
+6. Go to the root directory of the repository:
+```bash
+cd Udacity-Project2/
+```
+7. 
     
 
 
@@ -68,9 +82,9 @@ Port: 443
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+[Demo Video](https://youtu.be/zMusf_93D7Y)
 
-## Screen Shots
+## Screen Shots (TO DELETE)
 
 Note: To not crowd this page, please navigate to [Screenshots](https://github.com/bvt3/flask-sklearn-benito-tio/tree/main/Screenshots) folder to view all the screen shots.
 
