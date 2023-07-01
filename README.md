@@ -43,14 +43,47 @@ source ~/.myrepo/bin/activate
 git clone https://github.com/bvt3/Udacity-Project2.git
 ```
 * You can get the https link from the GitHub project:
-*![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-02.jpg?raw=true)
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-02.jpg?raw=true)
+* Sample cloned repository:
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-03.jpg?raw=true)
 
 6. Go to the root directory of the repository:
 ```bash
 cd Udacity-Project2/
 ```
-7. 
-    
+7. Run the makefile command:
+```bash
+make all
+```
+* Sample output of a make file command:
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-04.jpg?raw=true)
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-05.jpg?raw=true)
+
+8. Make the prediction by running the make_predict_azure_app.sh
+* Unblock the file first:
+```bash
+chmod u+x make_predict_azure_app.sh
+```
+* Then, run it:
+```bash
+./make_predict_azure_app.sh
+```
+* Output of the prediction:
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-06.jpg?raw=true)
+
+Steps to run a load testing for the application using Locust
+
+1. Install Locust
+```bash
+pip3 install locust
+```
+2. Run a locust test; Below command runs the load with 10 users with a spawn-rate of 1 user per seconds
+```bash
+locust -f locustfile.py --headless -u 10 -r 1 --run-time 10
+```
+* Sample output:
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-07.jpg?raw=true)
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-08.jpg?raw=true)
 
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
