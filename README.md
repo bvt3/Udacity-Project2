@@ -31,7 +31,7 @@ Steps to run the prediction app
 
 2. Click Cloud Shell icon from the menu (BASH)
 ![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-01.jpg?raw=true)
-3. Create a virtual environment using the command:
+3. Create a virtual environment:
 ```bash
 python3 -m venv ~/.myrepo
 ```
@@ -102,6 +102,7 @@ Sample Images:
 
 * The Azure build pipeline inside DevOps:
 ![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-13.jpg?raw=true)
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-15.jpg?raw=true)
 
 * The Log Stream for monitoring:
 ![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-14.jpg?raw=true)
