@@ -23,8 +23,9 @@ Architectural Diagram
 3. Azure Pipeline will run necessary step to deploy it to Azure App Service.
 4. The app is up and running and we can use the service it provides.
 
+The main GitHub project is https://github.com/bvt3/Udacity-Project2
 
-Steps to run the Python project (CI/CD)
+Steps to run the prediction app
 
 1. Open portal.azure.com from your web browser and login
 2. Click Cloud Shell icon from the menu (BASH)
@@ -41,6 +42,9 @@ source ~/.myrepo/bin/activate
 ```bash
 git clone https://github.com/bvt3/Udacity-Project2.git
 ```
+* You can get the https link from the GitHub project:
+*![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-02.jpg?raw=true)
+
 6. Go to the root directory of the repository:
 ```bash
 cd Udacity-Project2/
@@ -78,13 +82,11 @@ Port: 443
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+- Add an alert after the deployment
+- UI enhancement to have a user-friendly experience
+- Make the training model user configurable in the future so it is not hard-coded
+- Leverage containerization or micro-services
 
 ## Demo 
 
-[Demo Video](https://youtu.be/zMusf_93D7Y)
-
-## Screen Shots (TO DELETE)
-
-Note: To not crowd this page, please navigate to [Screenshots](https://github.com/bvt3/flask-sklearn-benito-tio/tree/main/Screenshots) folder to view all the screen shots.
-
+[Demo Video](https://youtu.be/IyuV5pDDIiI)
