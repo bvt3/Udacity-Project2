@@ -59,7 +59,7 @@ make all
 ![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-04.jpg?raw=true)
 ![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-05.jpg?raw=true)
 
-8. Make the prediction by running the make_predict_azure_app.sh
+8. Make the prediction by running the make_predict_azure_app.sh file
 * Unblock the file first:
 ```bash
 chmod u+x make_predict_azure_app.sh
@@ -68,7 +68,7 @@ chmod u+x make_predict_azure_app.sh
 ```bash
 ./make_predict_azure_app.sh
 ```
-* Output of the prediction:
+* Output of a prediction:
 ![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-06.jpg?raw=true)
 
 Steps to run a load testing for the application using Locust
@@ -77,7 +77,7 @@ Steps to run a load testing for the application using Locust
 ```bash
 pip3 install locust
 ```
-2. Run a locust test; Below command runs the load with 10 users with a spawn-rate of 1 user per seconds
+2. Run a locust test; The command below runs the test with 10 users with a spawn-rate of 1 user per second
 ```bash
 locust -f locustfile.py --headless -u 10 -r 1 --run-time 10
 ```
@@ -85,6 +85,25 @@ locust -f locustfile.py --headless -u 10 -r 1 --run-time 10
 ![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-07.jpg?raw=true)
 ![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-08.jpg?raw=true)
 
+
+Sample Images:
+* The resource group UdacityProject2 where the resources have been created:
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-09.jpg?raw=true)
+
+* The benprj2 app service:
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-10.jpg?raw=true)
+
+* The landing page of the service:
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-11.jpg?raw=true)
+
+* The GitHub action:
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-12.jpg?raw=true)
+
+* The Azure build pipeline inside DevOps:
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-13.jpg?raw=true)
+
+* The Log Stream for monitoring:
+![alt text](https://github.com/bvt3/Udacity-Project2/blob/main/Files/CICD-14.jpg?raw=true)
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
